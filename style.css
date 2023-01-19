@@ -1,0 +1,78 @@
+body{
+    background-color: #FF7948;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.task-card {
+    display: flex;
+    flex-direction: column;
+    margin: 18px;
+    border-radius: 23px;
+    width: 200px;
+}
+
+.task-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    border-radius: 0px 0px 20px 20px;
+    border-right: solid 3px black;
+    border-left: solid 3px black;
+    border-bottom: solid 3px black;
+    width: 200px;
+    min-height: 50px;
+    background-color: #8BDBD8;
+}
+
+.task-card .task-card-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #005645;
+    height: 50px;
+    width: 200px;
+    border-bottom: solid 2px black;
+    border-top: solid 3px black;
+    border-right: solid 3px black;
+    border-left: solid 3px black;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.task-card .task-card-assignedTo {
+    font-size: 18px;
+    display: flex;
+    align-content: center;
+    border-radius: 5px;
+    background-color: #659FF9;
+    padding: 5px;
+    min-height: 20px;
+    border: solid 2px black;
+    margin: 0px 10px 10px;
+
+}
+
+.hyperlinks {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.task-card .task-card-deadline {
+    font-size: 18px;
+    display: flex;
+    align-content: center;
+    border-radius: 5px;
+    background-color: #659FF9;
+    padding: 5px;
+    min-height: 20px;
+    border: solid 2px black;
+    margin: 0px 10px 10px;
+
+}
